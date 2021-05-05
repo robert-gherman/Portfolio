@@ -145,8 +145,8 @@ section {
   stroke-linejoin: round;
   stroke-dasharray: 70 330;
   stroke-dashoffset: 0;
-  -webkit-animation: stroke 6s infinite linear;
-  animation: stroke 6s infinite linear;
+  -webkit-animation: stroke 7s infinite linear;
+  animation: stroke 7s infinite linear;
 }
 .text:nth-child(5n + 1) {
   stroke: #f9e0d9;
