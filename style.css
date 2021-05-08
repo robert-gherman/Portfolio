@@ -4,6 +4,7 @@
 }
 body {
   background-color: #1b1b22;
+  border: blue solid 5px;
 }
 /* NAVBAR */
 .nav {
@@ -81,7 +82,7 @@ body {
     font-size: 18px !important;
   }
   .submit-btn {
-    width: 100%;
+    width: 200px;
     float: none;
     text-align: center;
   }
@@ -90,6 +91,9 @@ body {
     margin-top: 15px !important;
     margin-left: 10px !important;
     margin-right: 10px !important;
+  }
+  .styled-input {
+    width: 90% !important;
   }
 }
 
@@ -420,7 +424,10 @@ textarea {
   width: 100%;
   min-height: 15em;
 }
-
+.container {
+  max-width: 100vw;
+  border: solid 5px red;
+}
 .input-container {
   width: 650px;
   max-width: 100%;
