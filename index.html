@@ -138,24 +138,26 @@
         <div class="row input-container">
           <div class="col-xs-12">
             <div class="styled-input wide">
-              <input type="text" required />
+              <input type="text" />
               <label>Name</label>
             </div>
           </div>
           <div class="col-xs-12">
             <div class="styled-input wide">
-              <input type="text" required />
+              <input type="text" name="_replyto" />
               <label>Email</label>
             </div>
           </div>
           <div class="col-xs-12">
             <div class="styled-input wide">
-              <textarea required></textarea>
+              <textarea name="message"></textarea>
               <label>Message</label>
             </div>
           </div>
           <div class="col-xs-12">
-            <div class="btn-lrg submit-btn">Send Message</div>
+            <div class="btn-lrg submit-btn">
+              <button type="submit">Send Message</button>
+            </div>
           </div>
         </div>
       </form>

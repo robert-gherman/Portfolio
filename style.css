@@ -423,6 +423,12 @@ textarea {
   width: 100%;
   min-height: 15em;
 }
+.btn-lrg button {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
 .container {
   max-width: 100vw;
 }
