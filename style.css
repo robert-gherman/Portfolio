@@ -66,8 +66,16 @@ body {
     right: 0;
     cursor: pointer;
   }
+  .headline {
+    width: 350px;
+  }
   .text-svg {
     font-size: 30px;
+    transform: translate(-55px, 0px);
+  }
+  .text-svg-span {
+    font-size: 30px;
+    transform: translate(-80px, 0px);
   }
   .headline p {
     font-size: 18px !important;
@@ -76,6 +84,12 @@ body {
     width: 100%;
     float: none;
     text-align: center;
+  }
+  .highlight1,
+  .highlight2 {
+    margin-top: 15px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
 }
 
